@@ -175,7 +175,11 @@ export default function Lab1() {
         <br />
         Loading a local image:
         <br />
-        <img id="wd-teslabot" src="/images/teslabot.jpg" height="200px" />
+        <img
+          id="optimus-tesla.webp"
+          src="/images/optimus-tesla.webp"
+          height="200px"
+        />
       </div>
       <div id="wd-forms">
         <h4>Form Elements</h4>
