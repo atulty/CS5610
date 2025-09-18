@@ -7,32 +7,46 @@ export default function Labs() {
       <ul>
         <li>
           <Link href="/Labs/Lab1" id="wd-lab1-link">
-            Lab 1: HTML Examples </Link>
+            Lab 1: HTML Examples{" "}
+          </Link>
         </li>
         <li>
           <Link href="/Labs/Lab2" id="wd-lab2-link">
-            Lab 2: CSS Basics </Link>
+            Lab 2: CSS Basics{" "}
+          </Link>
         </li>
         <li>
           <Link href="/Labs/Lab3" id="wd-lab3-link">
-            Lab 3: JavaScript Fundamentals </Link>
+            Lab 3: JavaScript Fundamentals{" "}
+          </Link>
         </li>
       </ul>
       <div id="wd-personal-info">
         <h2>Student Information</h2>
-        <li><strong>Name:</strong> Piyush Daga</li>
-        <li><strong>Section:</strong> 05 | CRN: 19730 | Online</li>
         <li>
-        <Link href="/" id="wd-kambaz-link">
-          Kambaz </Link>
-      </li>
-      <li>
-        <Link href="https://github.com/piyush1420/kambaz-next-js" id="wd-github-link">
-          Github repo </Link>
-      </li>
+          <strong>Name:</strong> Atul Tiwary
+        </li>
+        <li>
+          <strong>Section:</strong> 04 | CRN: 19730 | Online
+        </li>
+        <li>
+          <Link href="/" id="wd-kambaz-link">
+            Kambaz{" "}
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://github.com/atulty/CS5610/tree/main/2025/fall/webdev/CS5610/kambaz-next-js_A1_Atul"
+            id="wd-github-link"
+          >
+            Github repo{" "}
+          </Link>
+        </li>
       </div>
-      <div className="center-container"> <Lab1/></div>
-      
+      <div className="center-container">
+        {" "}
+        <Lab1 />
+      </div>
     </div>
   );
 }
