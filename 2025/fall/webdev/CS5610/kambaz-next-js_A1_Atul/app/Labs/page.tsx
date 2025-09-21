@@ -23,26 +23,31 @@ export default function Labs() {
       </ul>
       <div id="wd-personal-info">
         <h2>Student Information</h2>
-        <li>
+
+        <div>
           <strong>Name:</strong> Atul Tiwary
-        </li>
-        <li>
+        </div>
+
+        <div>
           <strong>Section:</strong> 04 | CRN: 19730 | Online
-        </li>
-        <li>
+        </div>
+
+        <div>
           <Link href="/" id="wd-kambaz-link">
-            Kambaz{" "}
+            Kambaz
           </Link>
-        </li>
-        <li>
+        </div>
+
+        <div>
           <Link
             href="https://github.com/atulty/CS5610/tree/main/2025/fall/webdev/CS5610/kambaz-next-js_A1_Atul"
             id="wd-github-link"
           >
-            Github repo{" "}
+            Github repo
           </Link>
-        </li>
+        </div>
       </div>
+
       <div className="center-container">
         {" "}
         <Lab1 />
