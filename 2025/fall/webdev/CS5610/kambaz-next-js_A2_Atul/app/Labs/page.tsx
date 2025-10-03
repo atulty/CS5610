@@ -36,10 +36,10 @@ export default function Labs() {
         </li>
         <li>
           <Link
-            href="https://github.com/piyush1420/kambaz-next-js"
+            href="https://github.com/atulty/CS5610/tree/main/2025/fall/webdev/CS5610/kambaz-next-js_A2_Atul"
             id="wd-github-link"
           >
-            Github repo{" "}
+            Github repo
           </Link>
         </li>
       </div>
