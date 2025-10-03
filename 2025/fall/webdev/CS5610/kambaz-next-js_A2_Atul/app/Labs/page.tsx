@@ -29,13 +29,11 @@ export default function Labs() {
         <li>
           <strong>Section:</strong> 04 | CRN: 19730 | Online
         </li>
-
         <li>
           <Link href="/" id="wd-kambaz-link">
             Kambaz{" "}
           </Link>
         </li>
-
         <li>
           <Link
             href="https://github.com/atulty/CS5610/tree/main/2025/fall/webdev/CS5610/kambaz-next-js_A2_Atul"
