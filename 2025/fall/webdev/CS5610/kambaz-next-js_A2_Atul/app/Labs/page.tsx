@@ -29,6 +29,7 @@ export default function Labs() {
         <li>
           <strong>Section:</strong> 04 | CRN: 19730 | Online
         </li>
+
         <li>
           <Link href="/" id="wd-kambaz-link">
             Kambaz{" "}
