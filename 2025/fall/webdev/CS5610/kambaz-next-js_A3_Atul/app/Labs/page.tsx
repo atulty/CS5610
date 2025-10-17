@@ -1,0 +1,52 @@
+import Link from "next/link";
+import Lab1 from "./Lab1/page";
+export default function Labs() {
+  return (
+    <div id="wd-labs">
+      <h1>Labs</h1>
+      <ul>
+        <li>
+          <Link href="/Labs/Lab1" id="wd-lab1-link">
+            Lab 1: HTML Examples{" "}
+          </Link>
+        </li>
+        <li>
+          <Link href="/Labs/Lab2" id="wd-lab2-link">
+            Lab 2: CSS Basics{" "}
+          </Link>
+        </li>
+        <li>
+          <Link href="/Labs/Lab3" id="wd-lab3-link">
+            Lab 3: JavaScript Fundamentals{" "}
+          </Link>
+        </li>
+      </ul>
+      <div id="wd-personal-info">
+        <h2>Student Information</h2>
+        <li>
+          <strong>Name:</strong> Atul Kumar Tiwary
+        </li>
+        <li>
+          <strong>Section:</strong> 04 | CRN: 19730 | Online
+        </li>
+        <li>
+          <Link href="/" id="wd-kambaz-link">
+            Kambaz{" "}
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://github.com/atulty/CS5610/tree/main/2025/fall/webdev/CS5610/kambaz-next-js_A2_Atul"
+            id="wd-github-link"
+          >
+            Github repo
+          </Link>
+        </li>
+      </div>
+      <div className="center-container">
+        {" "}
+        <Lab1 />
+      </div>
+    </div>
+  );
+}
