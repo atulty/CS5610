@@ -8,3 +8,5 @@ dist
 .DS_Store
 Archive/*.zip
 Archive/*.zip
+/kambaz-node-server-app
+/kambaz-next-js_A5_Atul
