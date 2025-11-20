@@ -90,7 +90,7 @@ export default function TOC() {
       </NavItem>
 
       <NavItem>
-        <NavLink href="https://YOUR-RENDER-DOMAIN.onrender.com">
+        <NavLink href="https://kambaz-node-server-app-zy2i.onrender.com">
           Render Server Root
         </NavLink>
       </NavItem>
