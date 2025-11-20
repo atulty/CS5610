@@ -56,6 +56,7 @@ export default function TOC() {
           Lab 4
         </NavLink>
       </NavItem>
+
       <NavItem>
         <NavLink
           href="/Labs/Lab5"
@@ -72,9 +73,25 @@ export default function TOC() {
         </NavLink>
       </NavItem>
 
+      {/* ------------------------------ */}
+      {/* NEW REQUIRED DELIVERABLE LINKS */}
+      {/* ------------------------------ */}
+
       <NavItem>
-        <NavLink href="https://github.com/atulty/CS5610/tree/main/2025/fall/webdev/CS5610/kambaz-next-js_A2_Atul">
-          My GitHub
+        <NavLink href="https://github.com/atulty/CS5610/tree/a5/kambaz-next-js_A5_Atul">
+          A5 Frontend Repo
+        </NavLink>
+      </NavItem>
+
+      <NavItem>
+        <NavLink href="https://github.com/atulty/kambaz-node-server-app">
+          A5 Backend Repo
+        </NavLink>
+      </NavItem>
+
+      <NavItem>
+        <NavLink href="https://YOUR-RENDER-DOMAIN.onrender.com">
+          Render Server Root
         </NavLink>
       </NavItem>
     </Nav>
