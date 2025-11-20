@@ -1,0 +1,10 @@
+node_modules
+.env
+.env.development
+.env.local
+.idea
+.next
+dist
+.DS_Store
+Archive/*.zip
+Archive/*.zip
